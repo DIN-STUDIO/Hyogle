@@ -18,12 +18,12 @@ body {
 }
 
 .clock {
-  width: 30rem;
-  height: 30rem;
-  margin: 5rem auto;
+  width: 20rem;
+  height: 20rem;
+  margin: 7rem auto;
   padding: 1rem;
   background-color: #333;
-  border: 2rem solid white;
+  border: 1.2rem solid white;
   border-radius: 25%;
   box-shadow: 2px 0px 10px 2px #b3b3b3, 0px 0px 8px 0px black inset;
   display: grid;
@@ -40,7 +40,7 @@ body {
 }
 .clock__year {
   grid-area: year;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -79,7 +79,7 @@ body {
 }
 .clock__month {
   grid-area: month;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -112,7 +112,7 @@ body {
 }
 .clock__day-numbers {
   grid-area: num;
-  font-size: 5.8rem;
+  font-size: 3.7rem;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -140,7 +140,7 @@ body {
 }
 .clock__day-letters {
   grid-area: day;
-  font-size: 3rem;
+  font-size: 2.1rem;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -151,6 +151,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto-fit);
   grid-template-areas: "one two three" "one two three";
+  margin-top: 2rem;
 }
 .clock__day-letters--item {
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -176,8 +177,8 @@ body {
 }
 .clock__analog {
   grid-area: analog;
-  width: 10rem;
-  height: 10rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   position: relative;
 }

@@ -40,7 +40,7 @@ function setDate() {
 	monthDiv02.innerText = month[1];
 	monthDiv03.innerText = month[2];
 	
-	const dayLetters = new Intl.DateTimeFormat('fr-FR', { weekday: 'short'}).format(now).split('.')[0].toUpperCase();
+	const dayLetters = new Intl.DateTimeFormat('en-US', { weekday: 'short'}).format(now).split('.')[0].toUpperCase();
 	dayLettersDiv01.innerText = dayLetters[0];
 	dayLettersDiv02.innerText = dayLetters[1];
 	dayLettersDiv03.innerText = dayLetters[2];

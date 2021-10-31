@@ -14,9 +14,9 @@ h1{
 
 #input{
     display: flex;
-    /* margin-bottom: 10px; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    /* margin-bottom: 10px;
+    justify-content: center;
+    align-items: center; */
 }
 
 h1 span:nth-child(3n+1){

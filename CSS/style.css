@@ -67,8 +67,9 @@ body {
 
 
 .align-center {
-    position:absolute;
-    top: 38.5%;
+    position: relative;
+    margin-top: 1.2%;
+    margin-bottom: -5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
